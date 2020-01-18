@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>safety</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+  <!-- Custom styles for this template -->
+  <link href="css/landing-page.min.css" rel="stylesheet">
+  <style>
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+    }
+    
+    li {
+      float: left;
+    }
+    
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    li a:hover {
+      background-color: #111;
+    }
+    body {font-family: Arial, Helvetica, sans-serif;}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.button {
+  background-color: #2B60DE;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.center {
+margin: auto;
+width: 60%;
+
+padding: 10px;
+} 
+    </style>
+
+</head>
+
+<body>
+  
+  <!-- Navigation -->
+  <nav class="navbar navbar-light bg-light static-top" >
+    <div class="container">
+      <ul class="nav nav-pills nav-fill">
+        <li class="nav-item" id="myBtn" >
+          <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+         <a class="nav-link active btn btn-danger" style=" margin:auto;" id="lin"><h1 >EMERGENCY</h1></a>
+        </nav>
+        </li>
+      </ul>
+     
+    </div>
+  </nav>
+  <div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+    <div class="center">
+      <span class="close">&times;</span>
+      <p><b><h3>Get Immediate Help</h3></b></p>
+      <p><b>Locate yourself</p></b>
+      <input name="location" type="location">
+      <p><b>Enter Your No.</b></p>
+      <input name="no" type="text" autofocus>
+      <p><b>Trusted Contact</b></p>
+      <input name="no" type="text" autofocus>
+      <p>
+      <button class ="button">Get Help</button></p>
+    </div>
+    </div>
+  
+  </div>
+  
+  <script>
+  // Get the modal
+  var modal = document.getElementById("myModal");
+  
+  // Get the button that opens the modal
+  var btn = document.getElementById("myBtn");
+  
+  // Get the <span> element that closes the modal
+  var span = document.getElementsByClassName("close")[0];
+  
+  // When the user clicks the button, open the modal 
+  btn.onclick = function() {
+    modal.style.display = "block";
+  }
+  
+  // When the user clicks on <span> (x), close the modal
+  span.onclick = function() {
+    modal.style.display = "none";
+  }
+  
+  // When the user clicks anywhere outside of the modal, close it
+  window.onclick = function(event) {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  }
+  </script>
+
+  <!-- Masthead -->
+  <header class="masthead text-white text-center">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-9 mx-auto">
+          <h1 class="mb-5">Secure Fast And Reliable<br>Safety Is In Your Hand</h1>
+        </div>
+        
+        <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
+        <form method="POST" class="my-login-validation" novalidate="">
+					<br><br>			
+          <div class="form-group">
+            <label for="username"><h3>Username</h3></label>
+            <input id="username" type="username" class="form-control" name="username" value="" required autofocus>
+            <div class="invalid-feedback">
+              Username is invalid
+            </div>
+          </div>
+<br>
+          <div class="form-group">
+            <label for="password"><h3>Password</h3>
+              
+            </label>
+            <input id="password" type="password" class="form-control" name="password" required data-eye>
+              <div class="invalid-feedback">
+                Password is required
+              </div>
+              <a href="forgot.html" class="float-right">
+                <h6><font color="red">Forgot Password?</font></h6> 
+               </a>
+              
+          </div>
+          <br>
+
+          <div class="form-group">
+            <div class="custom-checkbox custom-control">
+              <input type="checkbox" name="remember" id="remember" class="custom-control-input">
+              <label for="remember" class="custom-control-label"><h6>Remember Me</h6></label>
+            </div>
+          </div>
+
+          <div class="form-group m-0">
+            <button type="submit" class="btn btn-primary btn-block">
+             <h5>Login</h5> 
+            </button>
+          </div>
+          <div class="mt-4 text-center">
+            <h6>Don't have an account? </h6><a href="register.html"><h6><font color="red">Create One</font></h6></a>
+          </div>
+          <hr>
+          <br>
+
+        </form>
+      </div>
+      </div>
+    </div>
+  </header>
+  
+
+
+  <!-- Icons Grid -->
+  <section class="features-icons bg-light text-center">
+    <div class="container">
+      <h2 align="center"> Login to get access to these features!</h2><br><br><br>
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+            <div class="features-icons-icon d-flex a1" style="margin-bottom: 50px;">
+              <!-- <i class="icon-screen-desktop m-auto text-primary"></i> -->
+              <img src="img/eye2.png" style="margin:auto; display: inline;">
+            </div>
+            <h3>Keep An Eye</h3>
+            <p class="lead mb-0"  >This feature enables live location tracking and live chatting with emergency contacts.</p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+            <div class="features-icons-icon d-flex" style="margin-bottom: 50px;"> 
+              <img src="img/e1.png" style="margin:auto; display: inline;">
+            </div>
+            <h3>Alert</h3>
+            <p class="lead mb-0">This feature helps to add alerts of local happenings, disasters, accidents,etc. Get alerts while entering and exiting unsafe locations.</p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="features-icons-item mx-auto mb-0 mb-lg-3">
+            <div class="features-icons-icon d-flex"  style="margin-bottom: 50px;">
+              <img src="img/c1.png" style="margin:auto; display: inline;">
+            </div>
+            <h3>Access Contacts</h3>
+            <p class="lead mb-0">This feature relays "Need Help" and alert messages to the list of your custom emergency contacts.</p>
+          </div>
+        </div>
+        
+        <div class="col-lg-4">
+          <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+            <div class="features-icons-icon d-flex" style="margin-bottom: 50px;"> 
+              <img src="img/h1.png" style="margin:auto; display: inline;">
+            </div>
+            <h3>Nearby Help</h3>
+            <p class="lead mb-0">This feature enables the user to get help from three nearby locals through accessing location.</p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+            <div class="features-icons-icon d-flex" style="margin-bottom: 50px;"> 
+              <img src="img/m1.png" style="margin:auto; display: inline;">
+            </div>
+            <h3>Statistical Map</h3>
+            <p class="lead mb-0">This feature displays statistical map of region depicting crime prone areas, areasexperiencing  and nearby police station, hospitals,etc.</p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+            <div class="features-icons-icon d-flex" style="margin-bottom: 50px;"> 
+              <img src="img/w1.png" style="margin:auto; display: inline;">
+            </div>
+            <h3>Safety Measures</h3>
+            <p class="lead mb-0">This feature provides the user safety measures which when followed enhances user's personal safety </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
