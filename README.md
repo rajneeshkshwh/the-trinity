@@ -1,3 +1,2 @@
 # the-trinity
-This repository contains 4 folders namely Readme, Images, Code and Output which contains info about the webapp.
 Here is a webapp compatible with all devices providing aid for safety issues in cities considering different kinds of crisis.May it be a natural calamity or some unsafe zone this webapp notifies you, sends help alerts and provides a list of safety measures to take, these are some of the key features. This webapp uses news and data already available fruitfully. Being a webapp it needs no installation just internet access is required, it is more interactive and has a good user interface. Advanced techonologies like live tracking and immediate warning alerts are used. 
