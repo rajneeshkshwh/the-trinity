@@ -9,6 +9,7 @@ Here is a webapp compatible with all devices providing aid for safety issues in 
 Technology Stack : For frontend we have used HTML,CSS,JAVASCRIPT and BOOTSTRAP.
                    For backend we have used PHP and JQUERY.
                    For Database we have used MYSQL.
+                   We have done a lot of work
                    
 
 Progress Report :  We executed about 50% of our plan regarding the development of this safety webapp. Basic outline of the userinterface is completed with some database pages linked as for backend.                
